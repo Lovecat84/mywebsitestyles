@@ -1,47 +1,77 @@
+.topnav {
+    background-color: #BDBB51;
+    background-size: 100%;
+    overflow:auto;
+    padding-top: 20px;
+    margin:0;
+}
+.topnav a {
+    float: left;
+    color:black;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 40px;
+}
 body {
     font-family: 'Playfair Display', Serif;
+    font-size: 18px;
+
     margin: 0 10%;
-  }
-  
+    background-image: url(images/lobostudio-hamburg-MAjtbFMV5_k-unsplash.jpg);
+    background-size: 100% 100%;
+}
   .container {
-    border: 2px solid #a2a2a6;
+    border: 2px solid black;
     padding: 10px;
     margin: 10px auto;
+    background-color: white;
+    min-height: 300px;
+    border-radius: 15px;
   }
   
   .color-container {
     width: 100%;
   }
-  
   .color-panel {
-    display:inline-flex;
-    width: 24%;
+    border-radius: 15px;
+    display:inline-block;
+    width: 24.7%;
+    block-size: 25%;
     text-align: center;
     margin: 20px auto;
-    min-height: 100px;
+    min-height: 150px;
+    font-size: 20px;
+    text-decoration: none;
+}
+  .color-panel:hover{
+      background-color: black;
   }
   
   .blood-red {
     background-color: #A82729;
     color: #fff;
+
   }
   
   .mustard-rain {
     background-color: #BDBB51;
-    color: #000;
+    color: #fff;
   }
   
   .orange-sky {
     background-color: #F55153;
+    color:#fff;
   }
   
   .april-blue {
     background-color: #38AEF5;
+    color:#fff;
   }
   
   .font-panel {
-    width: 45%;
-    display: inline-block;
+    width: 33.3%;
+    float: left;
   }
   
   .font-label {
@@ -73,16 +103,23 @@ body {
     font-family: 'Poppins', sans-serif;
   }
   
+  .text-panel{
+      width: 33.3%;
+      float:left;
+      min-height: 500px;
+      
+  }
   .text-panel h1 {
     font-weight: 700;
-    font-size: 40px;
+    font-size: 20px;
     font-family: 'playfair display', serif;
+    color:black;
   }
   
   .text-panel h2 {
     font-weight: 500;
     font-size: 18px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', monospace;
   }
   
   .text-panel p {
